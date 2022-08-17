@@ -11,7 +11,7 @@ const Contact = () => {
   const [page] = createResource('contact', fetchPageHere);
   return (
     <div class="block lg:flex">
-      <div className="map-wrapper w-full lg:w-1/2 mt-10 px-4 lg:px-12 lg:mr-0">
+      <div className="map-wrapper hidden lg:visible lg:block w-full lg:w-1/2 mt-10 px-4 lg:px-12 lg:mr-0">
         <iframe
           class="w-full border-none"
           height="650"

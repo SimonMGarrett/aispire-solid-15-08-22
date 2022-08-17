@@ -35,7 +35,7 @@ const Home = () => {
   return (
     <div class="">
       <div className="hero mt-10">
-        <div class="flex w-full bg-gradient-to-t from-stone-300 to-stone-100 h-[50vh] text-white">
+        <div class="flex w-full bg-gradient-to-t from-stone-300 to-stone-100 h-[75vh] md:h-[50vh] text-white">
           <div className="relative circles w-1/2 text-center h-full overflow-hidden ml-8">
             <div className="svm-equation opacity-90 text-left pl-4 pt-4 absolute top-0 left-0 font-serif text-gray-600">
               <p class="mb-0 pb-0">
@@ -66,10 +66,10 @@ const Home = () => {
 
       <div class="bg-stone-300 pt-4 border-b-2 border-black">&nbsp;</div>
 
-      <div class="bg-[url('/images/data-blurred.png')] text-white text-left py-16 lg:py-48 px-12 lg:px-32 mb-16">
+      <div class="bg-[url('/images/data-blurred.png')] text-white text-left py-16 md:px-16 lg:py-48 px-12 lg:px-32 mb-16">
         <h2 className=" text-white mb-16 text-4xl">We focus on business needs + increasing profit.</h2>
 
-        <div className="flex">
+        <div className=" w-full">
           <div class="text-gray-100 text-2xl w-full lg:w-1/2">
             {/* Further text */}
             <Show when={page && page()}>
