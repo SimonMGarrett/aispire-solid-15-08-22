@@ -1,10 +1,11 @@
 import sanityClient from '@sanity/client';
 
 export const sanity = sanityClient({
-  projectId: '0tk8v91m',
+  projectId: 'lvg9vh4b',
   dataset: 'production',
   apiVersion: '2021-09-01',
   useCdn: false,
+  // Token for "gray-mule"
   token:
-    'skpbortBQWZ8OdrqvNWmkJ8eqr7LMXSWclzqbHYGgY0W4kXMDLsRzKfSvjwuu5qjAXJ27y92FoAC8qqGqBCEv7n1yMmTmEqMYv5AWORGYjUp0tMbloe4beYbArmTSkKlR2ItyeKHr0w5nY6PsXlSNM36zKkaIOSR736YSD08EPQh82L1jBQp',
+    'skEq9YJqIZvHUzxmkF5LPEXOwncy44fSRRA8422f6anEHlVbN5t7ak8jIzKqvb70LgESSEQsWzMUnSedhkJxRnjIH68CvSsdYjZoGgomUzb2dc7dNsB9sFeV4HgMQ9DKQBynaZbbg0lh9XJUEfZz2rLq0O9MOkiyWQxL3IIkrkWPdbYcmNQc',
 });

@@ -14,7 +14,7 @@ const Home = lazy(() => import('/src/pages/Home'));
 function App() {
   // Tracking
   const plausible = Plausible({
-    domain: 'simonmjgarrett.com',
+    domain: 'aispire.co.uk',
   });
   const { enableAutoPageviews } = plausible;
   const cleanup = enableAutoPageviews();
@@ -39,7 +39,8 @@ function App() {
   });
 
   return (
-    <div class="bg-[#F9F8F7] min-h-screen">
+    // bg-[#F9F8F7]
+    <div class="bg-stone-100 min-h-screen">
       <Header />
 
       <Routes>

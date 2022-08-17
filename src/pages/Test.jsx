@@ -1,4 +1,5 @@
-import SMJGCodeBlock from '../components/sanity-components/SMJGCodeBlock';
+import PCircle from '../components/pulsing-circles/PCircle';
+import PLine from '../components/pulsing-circles/PLine';
 
 // Some test code for SMJGCodeBlock
 const code = `
@@ -27,9 +28,10 @@ const Test = () => {
   // JUST FOR TESTING: it shouldn't ever be linked in to the rest of the site
 
   return (
-    <div class="w-full md:w-4/5 lg:w-3/5 xl:w-2/5 mx-auto p-8">
+    <div class="relative w-full md:w-4/5 lg:w-3/5 xl:w-2/5 mx-auto p-8">
       TEST PAGE
-      <SMJGCodeBlock data={{ code: code, filename: 'file.js', codeType: 'js' }}></SMJGCodeBlock>
+      <PCircle />
+      <PLine />
     </div>
   );
 };

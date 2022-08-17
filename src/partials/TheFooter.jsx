@@ -59,9 +59,9 @@ const AppFooter = (props) => {
         </span>
       </div>
 
-      <div class="text-center text-gray-600 text-sm w-full lg:w-3/5 px-8 mx-auto pb-16 mb-0 py-8 opacity-70">
+      <div class="text-center text-gray-600 text-sm w-full lg:w-3/5 px-8 mx-auto pb-16 mb-0 py-8 opacity-70 uppercase">
         <p>
-          &copy;{year} &nbsp;|&nbsp; SIMON MJ GARRETT &nbsp;|&nbsp; a&nbsp;
+          &copy;{year} &nbsp;|&nbsp; Aispire Consulting &nbsp;|&nbsp; a&nbsp;
           <a class="external-link file:inline-block  border-b border-gray-200" href="https://bertramandbean.com">
             BERTRAM+BEAN
           </a>

@@ -21,8 +21,9 @@ const h = blocksToHtml.h;
 // })
 
 const ContentBlock = (props) => {
+  const classes = props.data.classes;
   // This is all we currently do...
-  return <div class="text-gray-600 text-lg" innerHTML={blocksToHtml({ blocks: props.data.contentBlock })}></div>;
+  return <div class={classes} innerHTML={blocksToHtml({ blocks: props.data.contentBlock })}></div>;
 };
 
 export default ContentBlock;

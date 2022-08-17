@@ -8,6 +8,7 @@ const About = () => {
   const [page] = createResource('about', fetchPageHere);
 
   const imgUrl = createMemo(() => {
+    // clog('PAGE ABOUT', [page()]);
     if (page && page() && 'mainImg' in page()) {
       return urlFor(page().mainImg).url();
     }
@@ -29,7 +30,6 @@ const About = () => {
 
         <div class="text ml-8 w-10/12 lg:w-3/5 xl:w-4/5 text-gray-500 dark:text-gray-500">
           <h1 class="mb-8">{page().title}</h1>
-
           <ContentBlock data={page().pageContentRows[0]} />
         </div>
       </Show>

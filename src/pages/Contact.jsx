@@ -24,10 +24,6 @@ const Contact = () => {
           src="https://www.openstreetmap.org/export/embed.html?bbox=-5.081176757812501%2C51.184508061068165%2C-0.8624267578125001%2C52.889020448995225&amp;layer=mapnik"
           style="border: none"
         ></iframe>
-        <br />
-        <small>
-          <a href="https://www.openstreetmap.org/#map=9/52.0449/-2.9718">View Larger Map</a>
-        </small>
       </div>
 
       <Show when={typeof page() !== 'undefined'}>
@@ -40,9 +36,9 @@ const Contact = () => {
             <div class="pt-4 pb-8 mt-0">
               <form
                 class="rounded shadow p-8 bg-white"
-                action="https://submit-form.com/8SECtpIy"
+                action="https://submit-form.com/lG8M7vob"
                 method="POST"
-                data-botpoison-public-key="pk_d5874961-8320-4e90-9a41-ee7cd3e700d7"
+                data-botpoison-public-key="pk_4dfdb517-1035-42b6-bbbd-af3d42bc0784"
               >
                 <div className="form-control mb-4">
                   <label for="name" class="label">
