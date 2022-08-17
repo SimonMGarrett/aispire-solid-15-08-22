@@ -1,0 +1,15 @@
+GENERAL:
+  - asdfasdf
+
+Visuals:
+- random number of circles
+- each pulses randomly between quite small and fairly big, those nearer the edge (see below for placement) tend to be smaller.
+- each has a color that stays the same in the range blue green to bluey-purple.
+- each randomly choose a spot a gaussian distance from its center and translates to that point with ease-in-out.
+- each is given its center spot a gaussian distance from the center of the screen.
+
+☐ The visuals could be underneath everythign, but that sounds like it might just get confusing, so it's more likely that they would be part of a display, like
+- a hero image or something.
+
+☐ All the site does is get attention visually, and boast about how good I am and how you should want to hire me to do data management (like GJU), data cleaning
+- data science, AI, ML etc. 

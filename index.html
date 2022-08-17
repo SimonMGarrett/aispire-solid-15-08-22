@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 
+    NOTE: it appears this file is served during DEV and the version in /public during BUILD.
+    Having said that, I'm not sure how else 'index.jsx' gets called unless their bodies are
+    combined during compilation or something - the heads certainly are not though.
+  -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1a1819" />
+    <link rel="shortcut icon" type="image/ico" href="/src/assets/favicon.ico" />
+    <link rel="apple-touch-icon" href="/src/assets/favicon.ico" />
+    <title>Aispire Consulting</title>
+    <meta
+      name="description"
+      content="AIspire help solve your real, expensive Business friction with AI, Machine Learning, and Data Science."
+    />
+    <link rel="canonical" href="https://aispire.co.uk" />
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <script src="/src/index.jsx" type="module"></script>
+  </body>
+</html>
