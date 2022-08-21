@@ -7,11 +7,11 @@ const AppHeader = () => {
     <header class="header-wrapper shadow-sm bg-white border-b border-stone-200 pb-4">
       <div class="logo mt-4 subpixel-antialiased cursor-pointer text-left md:text-center text-[44px] md:text-[56px] font-thin tracking-[12px] pl-8 md:pl-0 pt-8 pb-4 text-gray-700">
         <NavLink href="/?" class="text-inherit flex justify-start md:justify-center hover:bg-transparent border-none">
-          <img class="h-16 lg:h-32" src="/images/logo-large.png" alt="Aispire Logo" />
+          <img class="h-12 lg:h-16" src="/images/logo-large.png" alt="Aispire Logo" />
         </NavLink>
       </div>
 
-      <div class="strapline hidden lg:visible lg:block text-gray-500 text-center text-xl tracking-[4px] uppercase font-light subpixel-antialiased mb-4">
+      <div class="strapline hidden lg:visible lg:block text-gray-500 text-center text-lg tracking-[4px] uppercase font-light subpixel-antialiased mb-4">
         Artificial Intelligence &nbsp;.&nbsp; Machine Learning &nbsp;.&nbsp; Data Science
       </div>
 

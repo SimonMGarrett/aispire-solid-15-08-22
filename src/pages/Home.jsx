@@ -56,10 +56,12 @@ const Home = () => {
           <div className="rhs w-1/2 text-slate-800 pl-8 pr-4 md:pl-16 md:pr-16 lg:px-32 self-center content-center">
             <h1 className="heading mb-4">What Do We Do?</h1>
 
-            {/* List of things we do */}
-            <Show when={page && page()}>
-              <ContentBlock data={page().pageContentRows[0]}></ContentBlock>
-            </Show>
+            <div class="font-light">
+              {/* List of things we do */}
+              <Show when={page && page()}>
+                <ContentBlock data={page().pageContentRows[0]}></ContentBlock>
+              </Show>
+            </div>
           </div>
         </div>
       </div>
